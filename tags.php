@@ -1,6 +1,7 @@
 <?php
 echo 'I am inside Php standard tag';
 
+
 ?>
 <br>
 <br>
