@@ -11,6 +11,6 @@ line 2
  */
 
 
-#shield type single line comment
+#one line shell style comment
 
 
