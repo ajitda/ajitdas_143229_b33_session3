@@ -72,9 +72,13 @@ echo $str.'<br>';
 $myPreviousValue = unserialize($str);
 print_r($myPreviousValue);
 echo "<br>";
+
 //is_float
 $xing = 45048;
-
+var_dump(is_float($xing));
+$float = 45.69823;
+var_dump(is_float($float));
+echo "<br>";
 
 $data = array(1, 1., NULL, new stdClass, 'foo');
 
