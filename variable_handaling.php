@@ -65,6 +65,17 @@ var_dump(is_bool($pb));
 var_dump(is_bool($ps));
 echo "<br>";
 
+//serialize & unserilize
+$trans = array('car', 'bus', 'truck', 'boat'=>array('p','q', 'r'), 'plane');
+$str = serialize($trans);
+echo $str.'<br>';
+$myPreviousValue = unserialize($str);
+print_r($myPreviousValue);
+echo "<br>";
+//is_float
+$xing = 45048;
+
+
 $data = array(1, 1., NULL, new stdClass, 'foo');
 
 foreach ($data as $value) {
