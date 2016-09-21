@@ -27,6 +27,19 @@ var_dump(is_null($foo));
 var_dump(is_null($fooi));
 echo "<br>";
 
+//isset & unset
+$name='';
+$pass='5896';
+var_dump(isset($name));
+var_dump(isset($name, $pass));
+unset($name);
+var_dump(isset($name));
+var_dump(isset($name, $pass));
+$age= null;
+var_dump(isset($age));
+echo "<br>";
+
+
 //print_r
 $x = 58963;
 
