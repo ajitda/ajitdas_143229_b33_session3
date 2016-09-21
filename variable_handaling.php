@@ -39,12 +39,11 @@ $age= null;
 var_dump(isset($age));
 echo "<br>";
 
-
 //print_r
 $x = 58963;
-
 print_r($x);
-
+$a = array('a' => 'apple', 'b' => 'bannana', 'c' => array('x','y','z'));
+print_r($a);
 echo "<br>";
 
 
