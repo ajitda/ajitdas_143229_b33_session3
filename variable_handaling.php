@@ -20,6 +20,13 @@ $string ='this is a string not array';
 var_dump(is_array($string));
 echo "<br>";
 
+//is_null
+$foo = null;
+$fooi = 85;
+var_dump(is_null($foo));
+var_dump(is_null($fooi));
+echo "<br>";
+
 //print_r
 $x = 58963;
 
