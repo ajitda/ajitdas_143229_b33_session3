@@ -42,7 +42,7 @@ echo "<br>";
 //print_r
 $x = 58963;
 print_r($x);
-$a = array('a' => 'apple', 'b' => 'bannana', 'c' => array('x','y','z'));
+$a = array('a' => 'apple', 'b' => 'bannana', 'c' => array('w','x','y','z'));
 print_r($a);
 echo "<br>";
 
