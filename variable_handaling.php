@@ -87,6 +87,14 @@ $float = 5896321145;
 var_dump(is_string($float));
 echo "<br>";
 
+
+//is_int
+$xing = 'this is a string';
+var_dump(is_int($xing));
+$x = 589885765;
+var_dump(is_int($x));
+echo "<br>";
+
 $data = array(1, 1., NULL, new stdClass, 'foo');
 
 foreach ($data as $value) {
