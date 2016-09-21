@@ -46,6 +46,10 @@ $a = array('a' => 'apple', 'b' => 'bannana', 'c' => array('w','x','y','z'));
 print_r($a);
 echo "<br>";
 
+//var_export
+$y = array('gmail', 'email', 'live');
+var_export($y);
+echo "<br>";
 
 
 
