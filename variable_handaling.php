@@ -59,8 +59,11 @@ var_dump(gettype($m));
 echo "<br>";
 
 //is_bool
-$m = true;
-
+$pb = true;
+$ps = 'this is not bool';
+var_dump(is_bool($pb));
+var_dump(is_bool($ps));
+echo "<br>";
 
 $data = array(1, 1., NULL, new stdClass, 'foo');
 
