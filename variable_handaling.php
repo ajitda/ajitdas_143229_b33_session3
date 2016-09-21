@@ -51,6 +51,15 @@ $y = array('gmail', 'email', 'live');
 var_export($y);
 echo "<br>";
 
+//gettype
+$n = array('xmen', 'tmen', 'zimen');
+var_dump(gettype($n));
+$m = 'this is string type';
+var_dump(gettype($m));
+echo "<br>";
+
+//is_bool
+$m = true;
 
 
 $data = array(1, 1., NULL, new stdClass, 'foo');
