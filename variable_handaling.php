@@ -1,18 +1,24 @@
 <?php
 //floatval
 $string_with_float = "235.269bitm45.55";
-
 echo floatval($string_with_float);
-
 echo "<br>";
 
 //empty
 $x = 0;
 $empty_type=  empty($x);
 var_dump($empty_type);
+$y = 89;
+$not_empty=  empty($y);
+var_dump($not_empty);
 echo "<br>";
 
-
+//is_array
+$birds = array('Parrot','Sparrow', 'Kite');
+var_dump(is_array($birds));
+$string ='this is a string not array';
+var_dump(is_array($string));
+echo "<br>";
 
 //print_r
 $x = 58963;
