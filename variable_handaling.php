@@ -80,6 +80,13 @@ $float = 45.69823;
 var_dump(is_float($float));
 echo "<br>";
 
+//is_string
+$xing = 'this is a string';
+var_dump(is_string($xing));
+$float = 5896321145;
+var_dump(is_string($float));
+echo "<br>";
+
 $data = array(1, 1., NULL, new stdClass, 'foo');
 
 foreach ($data as $value) {
